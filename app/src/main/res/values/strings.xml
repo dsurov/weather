@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Weather</string>
+    <string name="greeting1">Доброе утро</string>
+    <string name="greeting2">Добрый день</string>
+    <string name="greeting3">Добрый вечер</string>
+    <string name="weather_attr1">Скорость ветра</string>
+    <string name="weather_attr2">Давление</string>
+    <string name="weather_attr3">Влажность</string>
+    <string name="weather_attr4">*Для просмотра погоды выберите город из списка*</string>
+    <string name="weather_attr5">25</string>
+    <string name="weather_attr6">10 м/c</string>
+    <string name="weather_attr7">680</string>
+    <string name="city1">Ростов-на-Дону</string>
+
+    <string-array name="city_list">
+        <item>Ростов-на-Дону</item>
+        <item>Москва</item>
+        <item>Хабаровск</item>
+        <item>Санкт-Петербург</item>
+        <item>Екатеринбург</item>
+        <item>Воронеж</item>
+        <item>Ярославль</item>
+        <item>Волгоград</item>
+        <item>Ставрополь</item>
+        <item>Тюмень</item>
+        <item>Самара</item>
+        <item>Саратов</item>
+        <item>Новосибирск</item>
+    </string-array>
 </resources>

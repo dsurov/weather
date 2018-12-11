@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:visibility="invisible">
-
-
-
-        <ListView
-            android:id="@+id/lview"
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"></ListView>
-
-    </FrameLayout>
+    tools:context=".Activity2">
 
     <LinearLayout
         android:id="@+id/InnerRelativeLayout"
@@ -37,31 +20,10 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:gravity="center"
-            android:text="@string/greeting1"
+            android:text="@string/city1"
 
 
             android:textSize="20sp"
-
-            />
-        <TextView
-            android:id="@+id/list_city_text"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string-array/city_list"
-            android:layout_marginStart="10dp"
-            android:textSize="15sp">
-
-        </TextView>
-
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:gravity="center"
-            android:text="@string/weather_attr4"
 
             />
 
@@ -71,61 +33,75 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <CheckBox
-                android:id="@+id/checkBoxBold1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" />
-
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:gravity="left"
                 android:text="@string/weather_attr2" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/InnerRelativeLayout2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/checkBoxBold2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:gravity="left"
-                android:text="@string/weather_attr3" />
+                android:text="@string/weather_attr5" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/InnerRelativeLayout3"
+            android:id="@+id/InnerRelativeLayout7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <CheckBox
-                android:id="@+id/checkBoxBold3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" />
-
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:gravity="left"
                 android:text="@string/weather_attr1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:text="@string/weather_attr6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/InnerRelativeLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:text="@string/weather_attr2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:text="@string/weather_attr7" />
+
+
         </LinearLayout>
 
 
@@ -136,21 +112,15 @@
             android:layout_alignParentBottom="true"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/okBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="Ok" />
 
             <Button
+                android:layout_margin="20dp"
                 android:id="@+id/stornoBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="CANCEL" />
+                android:text="BACK" />
         </LinearLayout>
 
 
